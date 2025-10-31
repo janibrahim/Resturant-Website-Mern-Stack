@@ -1,6 +1,6 @@
 
 Add config.env file
 
-PORT
+PORT=5100
 FRONTEND_URL
 MONGO_URI

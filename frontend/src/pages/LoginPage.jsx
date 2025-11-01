@@ -5,7 +5,7 @@ const Login = () => {
   const [isSignup, setIsSignup] = useState(false);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-pink-50 transition-all duration-700 ease-in-out px-5">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-pink-50 transition-all duration-700 ease-in-out px-5 pt-14">
       {/* Restaurant Welcome Box */}
       <div className="mb-10 text-center animate-fadeIn">
         <h1 className="text-4xl md:text-5xl font-extrabold text-black drop-shadow-sm">

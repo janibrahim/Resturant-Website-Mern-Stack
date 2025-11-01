@@ -5,7 +5,7 @@ import '../app.css'
 const HeroSection = () => {
   return (
     <section className="heroSection" id="heroSection">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container">
         <div className="banner">
           <div className="largeBox">

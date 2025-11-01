@@ -27,7 +27,11 @@ nav {
   padding: 25px 10px 40px 10px;
   margin-bottom: 25px;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.9);
   align-items: center;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
@@ -100,7 +104,8 @@ nav svg {
 @media (max-width: 1100px) {
   nav {
     z-index: 20;
-    position: unset;
+    position: sticky;
+    top: 0;
     background: #ffffff63;
     padding: 10px 30px;
   }

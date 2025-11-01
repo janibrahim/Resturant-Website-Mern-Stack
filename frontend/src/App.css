@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap");
+/* Tailwind CSS base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/**********************************************************************************************************************/
 
+/********************** GLOBAL STYLING **************************/
+/**********************************************************************************************************************/
 * {
   font-family: "Oswald", sans-serif;
   box-sizing: border-box;
@@ -7,7 +14,7 @@
   margin: 0;
   padding: 0;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -310,8 +317,8 @@ nav svg {
     height: 350px;
   }
 }
-@media(max-width: 650px){
-  .heroSection{
+@media (max-width: 650px) {
+  .heroSection {
     padding: 0;
   }
 }
@@ -894,12 +901,7 @@ footer .container .banner .right {
   border-bottom: 1px solid #333;
   background: transparent;
 }
-.reservation
-  .container
-  .banner
-  .reservation_form_box
-  form
-  input[type="email"] {
+.reservation .container .banner .reservation_form_box form input[type="email"] {
   width: 100%;
   margin-bottom: 20px;
   padding: 5px;
